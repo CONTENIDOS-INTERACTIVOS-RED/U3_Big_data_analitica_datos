@@ -22,9 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La analítica de datos permite identificar tendencias y oportunidades, mediante la recolección y análisis de información. Se divide en analítica descriptiva, predictiva y prescriptiva. La descriptiva, analiza datos históricos para comprender qué ocurrió, usando herramientas como Power BI y K-Means. La predictiva, anticipa eventos futuros mediante machine learning y modelos estadísticos. La minería de datos, procesa información estructurada y no estructurada, combinando métricas cuantitativas y cualitativas, con herramientas como Hadoop y Spark. Sus aplicaciones incluyen optimización de recursos, detección de fraudes y toma de decisiones estratégicas.
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Dominar la analítica de datos, es el primer paso para transformar desafíos en oportunidades y construir un futuro guiado por decisiones inteligentes y estratégicas.
-
+              p.descripcion.mb-4 El #[i Big Data] transforma las ciencias sociales, la ingeniería y el marketing mediante el análisis masivo de datos. En ciencias sociales, permite identificar tendencias, evaluar políticas públicas y analizar redes sociales. En ingeniería, optimiza sistemas, predice fallas y mejora procesos mediante sensores IoT y algoritmos como Machine Learning. En marketing, impulsa la segmentación, personalización y análisis predictivo, para crear estrategias efectivas. Aunque su potencial es enorme, plantea desafíos éticos, como la privacidad y los sesgos, exigiendo un enfoque crítico para maximizar beneficios y minimizar riesgos.
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
