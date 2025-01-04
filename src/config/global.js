@@ -16,26 +16,16 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '',
+        titulo:
+          'Uso de <i>Big Data</i> en la ciencia social: análisis de tendencias y comportamiento',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: '',
+            titulo:
+              'Técnicas y herramientas para el análisis social con <i>Big Data</i>',
             hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: '',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: '',
-            hash: 't_1_3',
           },
         ],
       },
