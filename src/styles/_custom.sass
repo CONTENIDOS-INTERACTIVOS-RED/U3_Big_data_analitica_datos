@@ -66,9 +66,9 @@
   &-2
     background-image: url("../assets/bg/orange.svg") !important
     background-position: center
-/*     &-3
-    background-image: url("../assets/bg/blue.svg") !important
-    background-position: center*/
+  &-3
+    background-image: url("../assets/bg/pink.svg") !important
+    background-position: center
 //--------------------------------------------------------------------------------------
 .border-top.color-primario
   border-top: 5px solid $color-primario !important
@@ -77,6 +77,11 @@
 .mb-cus
   @media screen and (max-width: $bp-max-sm)
     margin-bottom: 1.5rem !important
+.tarjeta-audio .tarjeta-audio__input input[type=range]
+    background: $color-primario !important
+    background-image: linear-gradient($color-primario, $color-primario) !important
+.audio__btn.bg-btn
+    background-color: $color-primario !important
 // Full Width Background
 .bg-full-width
   background-size: cover
