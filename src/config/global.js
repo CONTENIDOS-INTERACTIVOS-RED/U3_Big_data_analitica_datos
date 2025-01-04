@@ -38,6 +38,23 @@ export default {
         desarrolloContenidos: true,
       },
       {
+        nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
+        numero: '3',
+        titulo:
+          'Análisis de datos en marketing y negocios: segmentación de clientes y estrategias de mercado',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo:
+              'Modelos de segmentación de mercado (K-Means, Árboles de decisión)',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
         nombreRuta: 'sintesis',
         titulo: 'Síntesis',
         desarrolloContenidos: true,
