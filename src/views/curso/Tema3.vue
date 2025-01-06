@@ -254,7 +254,7 @@
                 p.mb-0 Optimizar la gestión de inventarios y la fijación de precios.
 
     p.mb-4(data-aos="fade-up") Las herramientas avanzadas de segmentación como K-Means y Árboles de decisión, combinadas con técnicas de análisis de series temporales como ARIMA, suavizado exponencial y redes neuronales, ofrecen a las empresas una ventaja estratégica. Estas herramientas permiten comprender mejor el comportamiento de los consumidores, anticipar tendencias y personalizar estrategias de manera más efectiva. Integrar estas tecnologías en las prácticas de #[i marketing], no solo mejora la precisión en la toma de decisiones, sino que también optimiza los recursos y maximiza el impacto de las campañas, garantizando un mayor retorno de la inversión y una experiencia más satisfactoria para el cliente.
-    .bg-full-width.bg-color-4.mb-0(data-aos="fade-up")
+    .bg-full-width.bg-color-4.mb-5(data-aos="fade-up")
       .p-5
         .row.justify-content-center.align-items-center
           .col-lg-7
@@ -267,12 +267,190 @@
                   p <strong>Anexo. </strong> Soluciones Innovadoras en Marketing y análisis de datos
           .col-lg-5.d-none.d-lg-block
              img(src='@/assets/curso/t3/19.png', alt='')
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 
 </template>
 
 <script>
 export default {
   name: 'Tema3',
+  data: () => ({
+    cuestionario: {
+      tema: 'Análisis de datos en marketing y negocios',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál es una de las aplicaciones principales del análisis de Big Data en ciencias sociales?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Optimización de rutas logísticas',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Predicción de fallas en sistemas industriales',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Análisis de redes sociales para entender patrones de comportamiento',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Diseño de circuitos electrónicos',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El análisis de redes sociales es fundamental para entender patrones de comportamiento en ciencias sociales.',
+          mensaje_incorrecto: 'No es correcto. Intenta nuevamente.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué técnica de Big Data se utiliza en ingeniería para identificar problemas antes de que ocurran?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Análisis de sentimientos',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Mantenimiento predictivo',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Segmentación de clientes',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseño de dashboards interactivos',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El mantenimiento predictivo es clave para anticipar y prevenir problemas en ingeniería.',
+          mensaje_incorrecto: 'No es correcto. Intenta nuevamente.',
+        },
+        {
+          id: 3,
+          texto:
+            'En marketing, ¿qué permite el análisis de datos estructurados y no estructurados?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Diseñar políticas públicas inclusivas',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Crear estrategias de transporte más eficientes',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'Generar perfiles de clientes más completos y personalizados',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Analizar las condiciones ambientales en tiempo real',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La combinación de datos estructurados y no estructurados permite crear perfiles de clientes más detallados y personalizados.',
+          mensaje_incorrecto: 'No es correcto. Intenta nuevamente.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué herramienta es comúnmente utilizada para la visualización de datos en marketing?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Hadoop',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Tableau',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'MongoDB',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'HDFS',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Tableau es una herramienta popular para la visualización de datos en marketing.',
+          mensaje_incorrecto: 'No es correcto. Intenta nuevamente.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál de las siguientes describe un desafío ético en el uso de Big Data en ciencias sociales?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El costo elevado de los algoritmos predictivos',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La falta de datos sobre tendencias culturales',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'La protección de la privacidad y el consentimiento informado',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'La escasez de herramientas para el análisis de datos en tiempo real',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La protección de la privacidad y el consentimiento informado son aspectos éticos fundamentales en el uso de Big Data.',
+          mensaje_incorrecto: 'No es correcto. Intenta nuevamente.',
+        },
+      ],
+      mensaje_final_aprobado:
+        '¡Felicitaciones! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
