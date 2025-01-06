@@ -110,6 +110,16 @@ export default {
         'Caballero, R. & Martín, E. (2015). Las bases de <i>Big Data</i>. Los libros de la Catarata.',
       link: 'https://elibro.net/es/lc/elibrocom/titulos/234185',
     },
+    {
+      referencia:
+        'Hernández Aguilar, J. A. (II.), Zavala Díaz, J. C. (II.) & Alonso Pecina, F. (II.). (2018). Big Data Analytics: una perspectiva multidisciplinaria para la mejora del proceso de toma de decisiones en las organizaciones. Bonilla Artigas Editores.',
+      link: 'https://elibro.net/es/lc/elibrocom/titulos/175511',
+    },
+    {
+      referencia:
+        'Williamson, B. (2018). Big Data en educación. Ediciones Morata, S.L.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/119511',
+    },
   ],
   glosario: [
     {

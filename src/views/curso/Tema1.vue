@@ -226,7 +226,33 @@
     
     p.mb-4(data-aos="fade-up") El #[i Big data] tiene un vasto potencial para transformar la comprensión de la sociedad y apoyar la toma de decisiones. Sin embargo, exige un enfoque reflexivo y ético para maximizar sus beneficios y mitigar riesgos, garantizando que su uso sea justo y equitativo.
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/elibrocom/titulos/248053' target='_blank' rel='noopener noreferrer') Becerra Mayorga, W. (2023). Python para las humanidades digitales. Ecoe Ediciones.
+            
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://hadoop.apache.org/releases.html' target='_blank' rel='noopener noreferrer') Apache Software Foundation. (n.d.). Hadoop releases.
 
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/playlist?list=PLo4m8hx3sbb_lcIO7n9bDr35Y3TKf56w1' target='_blank' rel='noopener noreferrer') Big Data and Society
+
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 

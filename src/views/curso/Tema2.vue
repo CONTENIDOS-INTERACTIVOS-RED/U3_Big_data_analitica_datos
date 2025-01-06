@@ -114,7 +114,31 @@
             p.mb-0 Integrar sistemas masivos de datos con plataformas existentes, asegurando interoperabilidad, seguridad y gestión adecuada de infraestructuras en diversos entornos industriales.
 
     p.mb-5(data-aos="fade-up") El uso de #[i Big data] en ingeniería, ofrece beneficios como la reducción de costos operativos, la optimización de recursos y el impulso de la sostenibilidad. Sin embargo, los retos relacionados con la escalabilidad, la calidad de los datos y la interoperabilidad deben ser gestionados de manera adecuada. A medida que las tecnologías evolucionan, superar estos desafíos será clave para aprovechar al máximo el potencial de #[i Big data] en la ingeniería, garantizando sistemas más eficientes, sostenibles y confiables.
-  
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.redalyc.org/articulo.oa?id=378343683010' target='_blank' rel='noopener noreferrer') Hernández Dominguez, A. & Hernández Yeja, A. (2015). Acerca de la aplicación de MapReduce+ Hadoop en el tratamiento de Big Data. Revista Cubana de Ciencias Informáticas, 9(3), pp. 49-62.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://spark.apache.org/downloads.html' target='_blank' rel='noopener noreferrer') Apache Software Foundation. (n.d.). Apache Spark Downloads.
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/playlist?list=PLxNoJq6k39G_m6DYjpz-V92DkaQEiXxkF' target='_blank' rel='noopener noreferrer') Big Data Engineering in Depth
+
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 
