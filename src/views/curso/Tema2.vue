@@ -79,8 +79,8 @@
     .row.justify-content-center.mb-5(data-aos="fade-up")
       .col-sm-12.col-lg-6
         TarjetaAudio.color-primario.mb-3(
-          texto="Proceso de descarga de MySQL Server Community y MySQL Workbench"
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          texto="Casos de uso en ingeniería"
+          :audio="require('../../assets/componentes/audios/casos_uso_ingenieria.mp3')"
         )
     h2.mb-3(data-aos="fade-up") Impacto y relevancia de #[i Big data] en la ingeniería.
     p.mb-5(data-aos="fade-up") El impacto de #[i Big data] en la ingeniería, trasciende la simple optimización de procesos y la mejora de la eficiencia operativa. La capacidad de analizar grandes volúmenes de datos provenientes de diversos sistemas, ha transformado la forma en que los ingenieros abordan desafíos complejos, ofreciendo beneficios tangibles y enfrentando retos significativos, que deben ser gestionados cuidadosamente. A continuación, se detallan los beneficios claves y los retos asociados con su implementación.
