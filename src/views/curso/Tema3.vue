@@ -260,7 +260,7 @@
           .col-lg-7
              h2.mb-4 Soluciones Innovadoras en #[i Marketing] y análisis de datos
              p.mb-4 La integración de sistemas de recomendación personalizados y análisis predictivo está revolucionando el #[i marketing]. Estas herramientas permiten anticipar necesidades, optimizar campañas en tiempo real mediante dashboards interactivos y dirigir estrategias hacia segmentos con mayor potencial. Esto mejora la experiencia del cliente y maximiza el ROI, fortaleciendo la competitividad empresarial.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/soluciones_innovadoras.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto

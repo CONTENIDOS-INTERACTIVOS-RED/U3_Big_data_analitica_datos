@@ -27,11 +27,11 @@
                 p.mb-0 Análisis de sentimientos: mide la percepción pública sobre temas específicos al identificar emociones y opiniones en publicaciones.
               li.d-flex
                 i.fas.fa-circle.icon-list
-                p.mb-0 Detección de tendencias: rastrea fenómenos virales, patrones emergentes y cambios culturales, mediante hashtags, palabras clave y picos de actividad.
+                p.mb-0 Detección de tendencias: rastrea fenómenos virales, patrones emergentes y cambios culturales, mediante hashtags, palabras claves y picos de actividad.
               li.d-flex
                 i.fas.fa-circle.icon-list
                 p.mb-0 Estudios de redes sociales: mapea conexiones y relaciones entre individuos y comunidades, para analizar la propagación de ideas o dinámicas grupales.
-            p.mb-0 #[b Ejemplo:] Twitter ha sido utilizado para rastrear discursos polarizantes y diseñar políticas de comunicación más estratégicas.
+            p.mb-0 #[b Ejemplo:] Twitter ha sido utilizado para rastrear discursos polarizantes y diseñar políticas de comunicación, más estratégicas.
 
           div(titulo='Encuestas digitales y datos administrativos')
             p.mb-4 #[b Datos disponibles:] información estructurada como registros de empleo, educación y salud.
@@ -112,7 +112,7 @@
           .col-sm-12.col-lg-7
              h2.mb-4 Desafíos y Oportunidades del #[i Big data] en las ciencias sociales
              p.mb-4 El #[i Big data] transforma las ciencias sociales enfrentando retos como garantizar la privacidad, corregir sesgos en datos y formar profesionales capacitados. Sin embargo, ofrece oportunidades únicas al permitir análisis en tiempo real, identificación de patrones a gran escala y la integración de múltiples fuentes de datos. Estas herramientas potencian la comprensión de fenómenos sociales y el diseño de políticas públicas, más precisas, mejorando la calidad de vida en las sociedades modernas.
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/desafios_oportunidades.pdf")' target='_blank')
                .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                .anexo__texto
